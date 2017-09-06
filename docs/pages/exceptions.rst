@@ -54,7 +54,7 @@ private subreddit that the currently logged-in user doesn't have access to.
 .. code-block:: pycon
 
     >>> import praw
-    >>> r = praw.Reddit('404 test by u/_Daimon_')
+    >>> r = praw.Reddit('403 test by u/_Daimon_')
     >>> r.get_subreddit('lounge', fetch=True)
 
 404 (:class:`.NotFound`)
